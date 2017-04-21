@@ -22,8 +22,48 @@ The lab's general workflow for contributing to a project involves:
 Good commit messages are an invaluable tool for understanding the history of a
 repository and will also help your project look professional. Good messages
 also allow others to taste the soup while it's cooking.
-* Read this first: [Quick and dirty guidelines from erlang's wiki](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
+
+* Be specific:
+  * someone with a bit of familiarity with your project should have a rough
+  sense of what you're doing after skimming your message
+  * someone looking through commit history for changes like yours should be
+  able to pick yours out
+* Do not exceed 80 characters per line. Aim for <=60 in the first line.
+* Separate summary from details by using two newlines after the first line.
+* Use the imperative (Do xyz), capitalized, and without terminal punctuation
+in your first line.
+
+More detailed guidelines and examples worth reading:
+* [Quick and dirty guidelines from erlang's wiki](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
 * [Detailed commit message guidelines from Chris Beams](https://chris.beams.io/posts/git-commit/)
+
+Examples of good commit messages:
+
+```
+Correct typos in README.md
+```
+
+```
+Redirect user to the requested page after login
+
+https://trello.com/path/to/relevant/card
+
+Users were being redirected to the home page after login, which is less
+useful than redirecting to the page they had originally requested before
+being redirected to the login form.
+
+* Store requested path in a session variable
+* Redirect to the stored location after successfully logging in the user
+```
+
+```
+Order ECU Manifests deterministically in ASN.1 Vehicle Manifests
+
+Conversion of a dictionary of lists of ECU Manifests into a list of
+ECU Manifests allowed unpredictable ordering previously. Now, the
+ECU Serials are sorted. As a result, the ASN.1 (and thus DER) generated
+will not vary based on that order.
+```
 
 
 
