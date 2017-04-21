@@ -70,8 +70,14 @@ will not vary based on that order.
 ### PRs and when to PR
 
 #### PR Titles and Descriptions
+* Summary
 * Template
 * Examples
+
+Pull requests should be readily reviewable. This means they should be:
+- focused
+- brief and frequent
+- descriptive
 
 
 
