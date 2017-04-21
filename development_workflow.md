@@ -3,6 +3,9 @@
 ## General Development Workflow in the Lab
 
 
+### Using git and GitHub
+See the following guide (to be moved to this repository later):
+[GitHub and Git](https://github.com/SeattleTestbed/docs/blob/master/Archive/Local/RepoAccess.md)
 
 ### Forking and Branching
 
