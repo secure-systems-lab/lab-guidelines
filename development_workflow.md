@@ -6,10 +6,21 @@
 
 ### Forking and Branching
 
+The lab's general workflow for contributing to a project involves:
+- Forking the repository
+- Creating a branch on your fork related to the particular feature you wish to add, with an expressive name (e.g. no "feature1", but instead "secure_client_using_xyzlib")
+- Make commits to that branch in accord with the commit guidelines below.
+- Make a pull request (PR) on GitHub to pull your branch on your fork into the main repository's main branch.
+- Request review for that PR.
 
 
 ### Commits: how to split them up, how to write good commit messages
-* [Commit message guidelines from Chris Beams](https://chris.beams.io/posts/git-commit/)
+#### Commit Messages
+Good commit messages are an invaluable tool for understanding the history of a
+repository and will also help your project look professional. Good messages
+also allow others to taste the soup while it's cooking.
+* Read this first: [Quick and dirty guidelines from erlang's wiki](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
+* [Detailed commit message guidelines from Chris Beams](https://chris.beams.io/posts/git-commit/)
 
 
 
