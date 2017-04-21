@@ -8,7 +8,7 @@ See the following guide (to be moved to this repository later):
 ## General Development Workflow in the Lab
 The lab's general workflow for contributing to a project involves:
 - Forking the repository
-- Creating a branch on your fork related to the particular feature you wish to add, with an expressive name (e.g. no "feature1", but instead "secure_client_using_xyzlib")
+- Creating a branch on your fork related to the particular feature you wish to add, with an expressive name (e.g. not "feature1", but instead "secure_client_using_xyzlib")
 - Make commits to that branch in accord with the commit guidelines below.
 - Make a pull request (PR) on GitHub to pull your branch on your fork into the main repository's main branch.
 - Request review for that PR.
