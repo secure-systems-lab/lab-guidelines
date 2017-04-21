@@ -71,16 +71,20 @@ will not vary based on that order.
 
 ## Pull Requests
 
-### PR Titles and Descriptions
-* Summary
-* Template
-* Examples
-
 Pull requests should be readily reviewable. This means they should be:
 - focused
-- brief and frequent
+- brief
+- frequent
 - descriptive
 
+#### PR Titles
+
+#### PR Descriptions
+
+#### PR Templates
+[This PR](https://github.com/uptane/uptane/pull/79) demonstrates how to add pull request
+templates to your repository, so that when a user creates a pull request, it will be
+populated with default values that encourage more descriptive PR text.
 
 
 ## Code Review
