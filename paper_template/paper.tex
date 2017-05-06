@@ -1,0 +1,213 @@
+%\documentclass[letterpaper, twocolumn, 10pt]{article}
+%\documentclass{acm_proc_article-sp}
+\documentclass{sig-alternate}
+\usepackage[hyphens]{url}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{comment}
+\usepackage{float}
+\usepackage{lipsum}
+\usepackage{pifont} %used for tickmark and crosses.
+% \usepackage[english]{babel}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amssymb}
+%\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage[normalem]{ulem}
+\usepackage{xspace}
+\usepackage{datetime}
+
+% To support subfigures
+\usepackage{caption}
+\usepackage{subcaption}
+
+% \usepackage{graphicx}
+
+%%%%%%%%%% verbatim related
+\usepackage{fancyvrb}
+\usepackage{fixltx2e}
+\fvset{framesep=2mm,fontsize=\scriptsize,framerule=.1mm,numbersep=1mm,commandchars=\\\{\}}
+\usepackage{listings}
+% \usepackage{tgcursor}
+
+%%%%%%%%%%%%%%%%%%%% pseudocode-related stuff
+\usepackage[usenames,dvipsnames]{xcolor}
+\newcommand{\codecomment}[1]{\textcolor[rgb]{0.133,0.445,0.133}{#1}}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+% \usepackage{algorithmic}
+\newfloat{algorithm}{t}{lop}
+% change indentation!!
+\setlength\fboxsep{0pt}
+\renewcommand\algorithmicindent{1em}
+%\newcommand{\INDSTATE}[1][1]{\State\hspace{#1\algorithmicindent}}
+% \newcommand{\INDSTATE}[1][1]{\State\hspace{2em}}
+%%%%%%%%%%%%%%%%%%%%
+
+% float control
+\renewcommand{\topfraction}{0.9}
+
+\widowpenalty=10000
+\clubpenalty=10000
+
+% \usepackage[small,compact]{titlesec}
+
+% \usepackage{savetrees}
+
+%%%%%%%%%%%%%%%%%%%%
+
+\newtheorem{mydef}{Definition}
+\newtheorem{theorem}{Theorem}[section]
+\newsavebox{\verbbox}
+% \usepackage[stable]{footmisc}
+
+\newif\ifrev
+
+\hyphenation{WEB-rick}
+
+%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+
+\newcommand{\PPH}{{\sc \{Pass\}}\xspace}
+\hypersetup{%
+  pdftitle = {\PPH: Gaining the  Higher Ground Against Password Crackers},
+  pdfkeywords = {},
+ % pdfauthor = { Justin Cappos},
+  pdfauthor = { Names removed for anonymous submission},
+  bookmarksnumbered,
+  bookmarksopen=true,
+  colorlinks=true,
+  urlcolor=[rgb]{.35,0,0},
+  linkcolor=[rgb]{.35,0,0},
+  citecolor=[rgb]{.35,0,0},
+  pdfstartview={FitH},
+}
+
+
+%%%%%%%%%%%%%%%%%%
+% COMMENT OUT NEXT LINE TO HIDE TODOs
+\revtrue
+%%%%%%%%%%%%%%%%%%
+
+\ifrev
+  \newcommand{\todo}[1]{{\color{red} [TODO: #1]}}
+\else
+  \newcommand{\todo}[1]{}
+\fi
+
+\newcommand{\eat}[1]{}
+\newcolumntype{m}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+\renewcommand\arraystretch{1.5} % so exponents fit inside a table
+\newcommand{\bigO}[1]{\ensuremath{\operatorname{O}\bigl(#1\bigr)}}
+\newcommand\vit[1]{\textit{#1}}
+% \renewcommand{\theFancyVerbLine}{\textsuperscript{\arabic{FancyVerbLine}}}
+% big-O notation/symbol
+
+% \newcommand{\sysname}{NetCheck\xspace}
+\newcommand{\mysup}[1]{\textsubscript{#1}}
+\newcommand{\order}{\textit{OrderingAlg}\xspace}
+\newcommand{\Order}{\textit{Trace-ordering}\xspace}
+
+\newcommand{\model}{network model\xspace}
+\newcommand{\Model}{Network model\xspace}
+
+\newcommand{\class}{diagnoses engine\xspace}
+\newcommand{\Class}{Diagnoses engine\xspace}
+
+
+\newenvironment{myquote}{\list{}{\leftmargin=0in\rightmargin=0in}\item[]}{
+\endlist}
+
+\makeatletter
+\newcommand\xleftrightarrow[2][]{%
+  \ext@arrow 9999{\longleftrightarrowfill@}{#1}{#2}}
+\newcommand\longleftrightarrowfill@{%
+  \arrowfill@\leftarrow\relbar\rightarrow}
+\makeatother
+
+\renewcommand{\labelenumi}{\roman{enumi}}
+\newcounter{mycounter}
+\newenvironment{noindlist}
+ {\begin{list}{\textit{\arabic{mycounter})}~}{\usecounter{mycounter}
+\labelsep=0em
+\labelwidth=0em \leftmargin=0em \itemindent=1em \itemsep=-0.2em }}
+ {\end{list}}
+
+\newcommand{\squishlist}{%
+   \begin{list}{$\bullet$}
+    { \setlength{\itemsep}{0pt}      \setlength{\parsep}{3pt}
+      \setlength{\topsep}{3pt}       \setlength{\partopsep}{0pt}
+      \setlength{\leftmargin}{1.5em} \setlength{\labelwidth}{1em}
+      \setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishend}{%
+    \end{list}  }
+
+\newcommand{\tickmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
+
+\newcommand*\samethanks[1][\value{footnote}]{\footnotemark[#1]}
+
+%some useful macros
+\newcommand\partialbytes{isolated-check bits\xspace}
+\newcommand\Partialbytes{Isolated-check bits\xspace}
+\newcommand\thresholdaccount{protector account\xspace}
+\newcommand\thresholdaccounts{protector accounts\xspace}
+\newcommand\Thresholdaccount{Protector account\xspace}
+\newcommand\Thresholdaccounts{Protector accounts\xspace}
+\newcommand\thresholdlessaccount{shielded account\xspace}
+\newcommand\thresholdlessaccounts{shielded accounts\xspace}
+\newcommand\Thresholdlessaccount{Shielded account\xspace}
+\newcommand\Thresholdlessaccounts{Shielded accounts\xspace}
+\newcommand\partialverification{isolated validation\xspace}
+\newcommand\Partialverification{Isolated validation\xspace}
+\newcommand\partialverifications{isolated validations\xspace}
+\newcommand\THRESHOLDLESS{SHIELDED\xspace}
+\newcommand\sxh{share$\oplus$hash\xspace}
+
+
+\input{annotations}
+
+\begin{document}
+
+\numberofauthors{2}
+%\date{}
+
+\title{Use something catchy.  The system name should be in the title.}
+
+
+% enable this to de-anonymize!
+%\newcommand{\showurlx}{{\url{https://whatever_the_url.is}}}
+\newcommand{\showurlx}{[redacted]}
+
+\author{
+%\IEEEauthorblockN{Justin Cappos}\\
+%New York University\\
+%jcappos@nyu.edu
+%\and
+Use whatever template the conference provides for the paper.tex file.
+% copy the following lines to add more authors
+% \and
+% {\rm Name}\\
+%Name Institution
+}
+
+\maketitle
+
+\input{abstract}
+\input{introduction}
+\input{threat-model}
+\input{background}
+\input{architecture}
+\input{implementation}
+\input{evaluation}
+\input{related-work}
+\input{conclusion}
+
+
+%\dmyyyydate
+{\footnotesize \bibliographystyle{abbrv}
+\bibliography{bibdata}}
+% \theendnotes
+
+\end{document}
