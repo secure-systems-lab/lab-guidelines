@@ -1,4 +1,4 @@
-# **Basic TO DOs for New Lab Personnel**
+# **Basic TODOs for New Lab Personnel**
 
 Welcome to the Secure Systems Lab. We are looking forward to working with you in the days ahead. Before plunging in to do
 some exciting work with some very cool people, there are a few tasks you need to complete.
