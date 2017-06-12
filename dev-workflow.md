@@ -8,9 +8,9 @@ of everyone else's work, we use the version control system
 
 Basic knowledge about *git* and *GitHub* is key for contributing not only
 to our lab projects but also with many other open source projects. If you
-prefer to contribute by other means [please let us
+strongly prefer to contribute by other means than git/GitHub [please let us
 know](https://ssl.engineering.nyu.edu/collaborate).
-In all other cases use our general development workflow below.
+Otherwise, use our general development workflow below.
 
 ## General Workflow
 1. **Fork the repository you want to contribute to**. Our projects are
@@ -21,21 +21,23 @@ Read more about
 [forking on *GitHub* here](https://help.github.com/articles/fork-a-repo/).
 1. **Create a branch** Whether fixing a bug or adding a new feature, in *git*
 creating new branches is cheap and makes collaboration easy. Make sure to
-chose an expressive branch name.
-1. **Commit early, commit often** And don't forget to write descriptive
-commit messages. This does not only help people who didn't write your code
-to understand it at a glance, it also helps yourself when you revisit a
-commit. A little bit like docstrings and comments. Apropos docstrings and
-comments, be sure to follow our [code style guidelines
-](https://github.com/secure-systems-lab/code-style-guidelines) when you write
-code.
+chose an expressive branch name, and try to make each branch self-contained.
+1. **Follow our
+[code style guidelines](https://github.com/secure-systems-lab/code-style-guidelines)**
+when you write code, please.
+1. **Commit early, commit often**. Make commits to your branches. Split commits
+up so that different changes for different reasons are in different commits.
+Write concise and descriptive commit messages. This helps you and others
+understand the commit itself and commit history at a glance. See our
+[guidelines for commits](commits.md).
 1. **Push early, push often** Don't be afraid to publish your
-*chef-d'œuvre* even if it's work in progress (you can add something like
-*``(WIP)''* in your commit message. Pushing on a regular basis ensures that
+*chef-d'œuvre* even if it's a work in progress (you can add something like
+*``(WIP)''* in your commit message if functionality is incomplete. Pushing on a
+regular basis ensures that
 nothing gets lost and allows others to easily jump in and help you.
 1. **Submit a pull request** If you want your contribution to be
-integrated in one of our projects -- and that's what you are here for
--- you have to *request* that it gets *pulled* from your fork
+integrated in one of our projects, you have to *request* that it gets *pulled*
+from your fork
 into the base repo. Take a look at [Creating a pull request from a
 fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 for further instructions. And beware of the following pitfalls:
