@@ -2,7 +2,7 @@
 
 The [Secure Systems Lab](https://ssl.engineering.nyu.edu) is a highly
 collaborative and distributed workspace. To allow everyone to keep track
-about  everyone else's work we use the version control system
+of everyone else's work, we use the version control system
 [*git*](https://git-scm.com/) and publicly host our *repositories* on
 [*GitHub*](https://github.com/).
 
@@ -13,10 +13,11 @@ know](https://ssl.engineering.nyu.edu/collaborate).
 In all other cases use our general development workflow below.
 
 ## General Workflow
-1. **Fork the repository you want to contribute to** Our projects are
+1. **Fork the repository you want to contribute to**. Our projects are
 distributed over many *GitHub* organizations. You can find the relevant
-links in the [projects section on our website
-](https://ssl.engineering.nyu.edu/projects). Read more about
+links in the
+[projects section on our website](https://ssl.engineering.nyu.edu/projects).
+Read more about
 [forking on *GitHub* here](https://help.github.com/articles/fork-a-repo/).
 1. **Create a branch** Whether fixing a bug or adding a new feature, in *git*
 creating new branches is cheap and makes collaboration easy. Make sure to
@@ -38,7 +39,7 @@ integrated in one of our projects -- and that's what you are here for
 into the base repo. Take a look at [Creating a pull request from a
 fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 for further instructions. And beware of the following pitfalls:
-    - Chose the right *base* branch and make sure that the PR contains all
+    - Choose the right *base* branch and make sure that the PR contains all
     and only the intended commits.
     - Sort out conflicts if they appear. Which usually happens if the base
     repo moved forward while you were working in your fork. [Keeping your fork
@@ -46,8 +47,9 @@ for further instructions. And beware of the following pitfalls:
     (or *upstream*, as it is often called) is a good way to avoid huge
     conflicts.
     - As with docstrings, comments, and commit messages, make
-    sure your PR title is concise and the description is descriptive (oh
-    really?!). This is really important for reviewers.
+    sure your PR title is concise and the description tells the reader enough
+    to really understand what the PR is about. This is really important for
+    reviewers!
 
 1. **Request a review** You can request reviews directly in *GitHub*. Also,
 don't be afraid to re-ask if no one has been on it after a couple of days.
