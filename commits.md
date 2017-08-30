@@ -5,9 +5,9 @@ Table of Contents:
 
 
 # Commit Guidelines
-## How to Split Up Commits
+## How to Commit
 #### Separate by Concept
-It should be possible when skimming the commit summaries (git log --oneline)
+It should be possible when skimming the commit summaries (`git log --oneline`)
 to have a good sense of what's being changed. For this reason and others
 (cherry-picking, organization, etc.), this means that the substance
 of each commit should be something you can summarize in a line. If you've made
@@ -19,9 +19,9 @@ branches and make distinct pull requests for them.
 
 #### Separate Moving and Modifying Files
 If you are moving/renaming a file, never make changes to that file in the same
-commit. If a file is moved with no changes, it shows up as such in GitHub,
+commit. If a file is moved with no changes, it shows up as such in *GitHub*,
 and reviewing the move is very easy. If even one minor change is made to the
-moved file, the diff in GitHub will instead show up as the deletion of all the
+moved file, the diff in *GitHub* will instead show up as the deletion of all the
 lines in the file at the old location and the addition of all the lines in the
 file at the new location, which makes reviewing any modifications complicated.
 Ideally, moving and modifying should even be in separate branches and pull
@@ -95,7 +95,7 @@ Pull requests should be readily reviewable. This means that they should be:
 - [frequent](#frequent-pull-requests)
 
 ## Pull Request Basics
-Pull requests are a GitHub feature, not part of git itself. They are a way to
+Pull requests are a *GitHub* feature, not part of *git* itself. They are a way to
 build discussion and review around merges, and to help people collaborating.
 
 ## Well-Described Pull Requests

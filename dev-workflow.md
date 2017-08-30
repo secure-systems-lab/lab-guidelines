@@ -8,7 +8,7 @@ of everyone else's work, we use the version control system
 
 Basic knowledge about *git* and *GitHub* is key for contributing not only
 to our lab projects but also with many other open source projects. If you
-strongly prefer to contribute by other means than git/GitHub [please let us
+strongly prefer to contribute by other means than *git*/*GitHub* [please let us
 know](https://ssl.engineering.nyu.edu/collaborate).
 Otherwise, use our general development workflow below.
 
@@ -32,9 +32,9 @@ understand the commit itself and commit history at a glance. See our
 [guidelines for commits](commits.md).
 1. **Push early and often**. Don't be afraid to publish your
 *chef-d'œuvre* even if it's a work in progress (you can add something like
-*``(WIP)''* in your commit message if functionality is incomplete. Pushing on a
-regular basis ensures that
-nothing gets lost and allows others to easily jump in and help you.
+*`(WIP)`* in your commit message if functionality is incomplete. Pushing
+on a regular basis ensures that nothing gets lost and allows others to
+easily jump in and help you.
 1. **Submit a pull request**. If you want your contribution to be
 integrated in one of our projects, you have to *request* that it gets *pulled*
 from your fork
