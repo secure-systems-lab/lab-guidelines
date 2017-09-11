@@ -377,8 +377,11 @@ https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-lin
 
 Typing `git help -a` on the command-line outputs the full list of commands
 supported by Git.  Consult Git's help pages for more information about each
-command.  [Zackperdue.com](http://zackperdue.com/tutorials/super-useful-need-to-know-git-commands)
-is another resource that covers useful Git commands.
+command.
+[Zackperdue.com](http://zackperdue.com/tutorials/super-useful-need-to-know-git-commands)
+is another resource that covers useful Git commands, and GitHub's [Git Cheat
+Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+is a handy reference.
 
 The section below lists some useful, common Git commands.
 
