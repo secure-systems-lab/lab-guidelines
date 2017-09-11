@@ -42,7 +42,7 @@ $ git config --global user.name "John Smith"
 $ git config --global user.email "john.smith@example.com"
 ```
 
-You can check your user information by typing the following command:
+You can check your configuration settings by typing the following command:
 
 ```
 $ git config --list
