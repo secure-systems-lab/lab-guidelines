@@ -339,8 +339,8 @@ needs to be resolved:
     >>>>>>
 ```
 
-The text between <<<<<< HEAD and ===== is what is currently on the server’s
-“master” branch.  The text between ===== and >>>>>> is what is being merged and
+The text between `<<<<<< HEAD` and `=====` is what is currently on the server’s
+“master” branch.  The text between `=====` and `>>>>>>` is what is being merged and
 causing the conflict.  To resolve the merge conflict, a contributor must open
 the file in a text editor and manually remove the merge conflict markers and
 either keep what is currently on the “master” branch or what is being merged.
