@@ -191,7 +191,8 @@ new branch.
 Create a `LICENSE` file and save it to the local machine. You do this by
 opening a new document in a text editor and saving as `LICENSE` in the current
 directory. In the `LICENSE` file you can include an open-source license for the
-project.  The MIT license is typically used for most of our lab's projects.
+project.  The [MIT license](https://choosealicense.com/licenses/mit/)
+is typically used for most of our lab's projects.
 
 The next step is to ask Git if it can find the `LICENSE` file, by asking it to
 identify all untracked files (on the local repository):
