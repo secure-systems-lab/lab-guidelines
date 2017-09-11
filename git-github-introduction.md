@@ -22,13 +22,18 @@ covers the basics of using Git and submitting a pull request to one of our proje
 [Linux](https://git-scm.com/download/linux), and
 [Windows](https://git-scm.com/download/win) users.
 
-## Configure Git User Information
+## Configure Git Identity
 
-After installing Git, the next step is for the user to configure his/her author information (username and email address) so that Git will correctly log the author of a commit. 
+After installing Git, the next step is for the user to configure his/her
+identity (username and email address) so that Git can fully log the author of a
+commit.  All Git commits include the user's username and email address.
 
-To configure Git author information, open the Terminal and type `git config
+To configure your Git identity, open the Terminal and type `git config
 --global user.name "user's name"`, which will allow you to configure Git on
-your local machine. Each repository you create will use the same user (author)
+your local machine.  The user.name is arbitrary, but it is customary to use
+your full name.
+
+Each repository you create will use the same user (author)
 configuration if you use the global flag (as in the provided example).
 
 ```
@@ -162,7 +167,7 @@ From https://github.com/SeattleTestbed/repy_v2
 
 ### Add a New Branch Locally
 
-First, list all known local branches of the repository, by typing the following:  
+First, list all known local branches of the repository, by typing the following:
 
 ```
 $ git branch
@@ -272,8 +277,8 @@ repository.
 ```
 $ git push origin new_branch
 
-Username for 'https://github.com': <username> 
-Password for 'https://<username>@github.com': 
+Username for 'https://github.com': <username>
+Password for 'https://<username>@github.com':
 Counting objects: 5, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
