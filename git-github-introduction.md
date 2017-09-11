@@ -6,7 +6,7 @@ our projects are expected to be made using [pull requests](https://help.github.c
 to repositories of their GitHub organization.  For example, the Seattle repositories
 are hosted on the [SeattleTestbed](https://github.com/SeattleTestbed) organization.
 
-Git is a free and open source distributed [VCS](http://en.wikipedia.org/wiki/Version_control_system)
+Git is a free and open source distributed [VCS](https://en.wikipedia.org/wiki/Version_control_system)
 (Version Control System).  A VCS helps manage changes made to files.  Users can run Git on their local
 computers and upload changes to remote repositories and files hosted on GitHub.  Contributors can edit files
 locally, upload their changes to GitHub, and then initiate a pull request. The following document
@@ -19,7 +19,7 @@ covers the basics of using Git and submitting a pull request to one of our proje
 ## Git Installation
 [git-scm.com](https://git-scm.com/) provides platform-specific installers for
 [Mac](https://git-scm.com/download/mac),
-[Linux](http://git-scm.com/download/linux), and
+[Linux](https://git-scm.com/download/linux), and
 [Windows](https://git-scm.com/download/win) users.
 
 ## Configure Git User Information
