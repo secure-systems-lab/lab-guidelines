@@ -400,17 +400,23 @@ version on the repository:
 $ git reset HEAD LICENSE
 ```
 
-To move a file to a new location but let Git know of the change:
+To rename a file or to move it to a new location and let Git know of the change:
 
 ```
-$ git mv
+$ git mv source_file destination_file
 ```
 
 
 To temporarily store modified files in order to change branches:
 
 ```
-$ git stash
+$ git add temporarily_modified_files
+$ git stash save "Temporary commit message for modified files"
+```
+
+To display stashed contents and apply them on the current branch:
+
+```
 $ git stash list
 $ git stash pop
 ```
