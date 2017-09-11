@@ -143,19 +143,22 @@ $ git remote add upstream https://github.com/SeattleTestbed/repy_v2.git
 Fetching and merging the latest changes of `upstream` (remembering that the
 `upstream` alias points to the original repository) can be done with Git's
 `pull` command.  The `pull` command fetches changes made to the remote
-repository and merges them into your local repository.  Branches are multiple
-working versions of a master project (or document). The main branch is the
-master repository and multiple, local branches of this master may be created by
-users so that they can work on the project before committing their work to the
-master document.  The pull command expects to see a (by default, the master)
-branch name, which the user will find on the project's [main
-repository](https://github.com/SeattleTestbed/repy_v2).  Information on
-creating a new branch is in the next section, `Add a New Branch Locally`.
+repository and merges them into your local repository.
+
+### Branches
+Branches are multiple working versions of a master project (or document). The
+main branch is the master repository and multiple, local branches of this
+master may be created by users so that they can work on the project before
+committing their work to the master document.  The pull command expects to see
+a (by default, the master) branch name, which the user will find on the
+project's [main repository](https://github.com/SeattleTestbed/repy_v2).
+Information on creating a new branch is in the next section, `Add a New Branch
+Locally`.
 
 ![GitHub Branches](/images/branches_sm.png)
 
-Additional information on [syncing a
-fork](https://help.github.com/articles/syncing-a-fork/) is recommended.
+[The GitHub help](https://help.github.com/articles/syncing-a-fork/) has more
+information on keeping your forks in sync with upstream.
 
 ```
 $ git pull upstream master
@@ -165,7 +168,7 @@ From https://github.com/SeattleTestbed/repy_v2
   Already up-to-date.
 ```
 
-### Add a New Branch Locally
+#### Add a New Branch Locally
 
 First, list all known local branches of the repository, by typing the following:
 
@@ -191,7 +194,7 @@ Switched to branch 'new_branch'
 Note: ```git checkout -b [branchname]``` is a shortcut to create and checkout a
 new branch.
 
-### Commit a New File to the Branch
+#### Commit a New File to the Branch
 
 Create a `LICENSE` file and save it to the local machine. You do this by
 opening a new document in a text editor and saving as `LICENSE` in the current
@@ -266,7 +269,7 @@ Date:   Tue Sep 2 14:46:36 2014 -0400
 ```
 
 
-### Push the Commit to the Remote (Forked) Repository
+#### Push the Commit to the Remote (Forked) Repository
 
 This step will push the branch to the remote repository controlled by the user
 (the forked version that you created earlier). The changes committed in the
