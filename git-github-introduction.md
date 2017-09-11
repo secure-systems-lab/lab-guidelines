@@ -67,7 +67,7 @@ Note: The command above requires Git version >= 2.0.0.
 
 ## GitHub User Account
 Before a pull request can be submitted to a
-[SeattleTestbed](https://github.com/SeattleTestbed) repository, a user account
+[Secure Systems Lab](https://github.com/secure-systems-lab) repository, a user account
 (free) must be created on GitHub.  This user account is also needed to create
 new repositories and fork ones that already exist on GitHub.
 
