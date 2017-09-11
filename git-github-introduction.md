@@ -102,7 +102,7 @@ and click on the `fork` button in the upper right-hand corner of the page.
 The `git clone` command creates a local copy of a remotely hosted GitHub
 repository.  So far, the `repy_v2` repository has only been copied and saved
 to the user's GitHub home page.  In the following example, the `repy_v2`
-`SeattleTestbed` repository is cloned to the user's local Git repository.
+`SeattleTestbed` repository is cloned to create a local Git repository.
 
 ```
 $ git clone https://github.com/<username>/repy_v2
@@ -115,8 +115,9 @@ Checking connectivity... done.
 ```
 
 A `repy_v2` folder is created in the local, current working directory.
-Before issuing GitHub commands, you need to change directories to either the
-cloned repository's directory, or to one of its sub-directories. For example:
+Before issuing Git commands pertaining to this repository, you need to
+change directories to either the cloned repository's directory, or to one
+of its sub-directories. For example:
 
 ```
 $ cd repy_v2/
