@@ -289,7 +289,7 @@ After the files are pushed, you (the user) can initiate a pull request
 to suggest your changes for inclusion in the original upstream repository.
 
 Continuing with the example of `SeattleTestbed/repy_v2`,
-visit the forked `repy_v2` repository and click on the green button next to
+visit the forked `repy_v2` repository and click on the "New pull request" button next to
 the drop-down list of branches.  The next page is where you will preview the
 commits and write/post a summary or comments about the changes you made. The
 image below shows where to locate the pull request button.
