@@ -11,7 +11,7 @@ for working and collaborating in the lab.
 * Reporting progress -- Document your achievements and share your insights
   by following the [progress report guide](progressreport.md).
 * Software development platform -- New to Git and GitHub?  Have a look at
-  the [introductory guide for Git and GitHub](git_github_introduction.md),
+  the [introductory guide for Git and GitHub](git-github-introduction.md),
   which is our lab's recommended software development platform.
 * Writing LaTeX documents -- Clear communication is key at SSL, and
   our [LaTeX guide](latexdocuments.md) helps you master an academic
