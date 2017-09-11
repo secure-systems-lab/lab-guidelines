@@ -136,7 +136,7 @@ $ git remote add upstream https://github.com/SeattleTestbed/repy_v2.git
 ```
 
 Fetching and merging the latest changes of `upstream` (remembering that the
-`upstream` alias points to the original repository) can be done with GitHub's
+`upstream` alias points to the original repository) can be done with Git's
 `pull` command.  The `pull` command fetches changes made to the remote
 repository and merges them into your local repository.  Branches are multiple
 working versions of a master project (or document). The main branch is the
