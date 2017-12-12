@@ -19,7 +19,7 @@ for working and collaborating in the lab.
   our [LaTeX guide](latexdocuments.md) helps you master an academic
   researcher's number 1 document preparation system.
 * Sample documents -- There exist documents that are common to projects.
-  For example, a document that instructs users on how to submit vulenerability
+  For example, a document that instructs users on how to submit vulnerability
   reports, or a configuration file for a static code analysis tool.  We recommend
   that new projects browse the
   [sample documents](https://github.com/secure-systems-lab/sample-documents)
