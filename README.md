@@ -13,6 +13,8 @@ for working and collaborating in the lab.
 * Software development platform -- New to Git and GitHub?  Have a look at
   the [introductory guide for Git and GitHub](git-github-introduction.md),
   which is our lab's recommended software development platform.
+* Software development workflow -- Use the workflow outlined in our general
+  [development guidelines](dev-workflow.md).
 * Code style guidelines -- Please follow the
   [lab's coding guidelines](https://github.com/secure-systems-lab/code-style-guidelines).
 * Writing LaTeX documents -- Clear communication is key at SSL, and
