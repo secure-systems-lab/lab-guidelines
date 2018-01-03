@@ -31,7 +31,7 @@ Write concise and descriptive commit messages. This helps you and others
 understand the commit itself and commit history at a glance. See our
 [guidelines for commits](commits.md).
 1. **Push early and often**. Don't be afraid to publish your
-*chef-d'œuvre* even if it's a work in progress (you can add something like
+*chef-d'œuvre* even if it's a work in progress. You can add something like
 *`(WIP)`* in your commit message if functionality is incomplete. Pushing
 on a regular basis ensures that nothing gets lost and allows others to
 easily jump in and help you.
@@ -43,7 +43,7 @@ fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 for further instructions. And beware of the following pitfalls:
     - Choose the correct *base* branch and make sure that the PR contains all
     and only the intended commits.
-    - Sort out conflicts if they appear. Which usually happens if the base
+    - Sort out conflicts if they appear. This usually happens if the base
     repo moved forward while you were working in your fork. [Keeping your fork
     in sync](https://help.github.com/articles/syncing-a-fork/) with the base
     (or *upstream*, as it is often called) is a good way to avoid huge
