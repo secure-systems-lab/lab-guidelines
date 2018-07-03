@@ -4,18 +4,18 @@ Welcome to the Secure Systems Lab. We are looking forward to working with you in
 some exciting work with some very cool people, there are a few tasks you need to complete.
 
 **If you are an NYU student,**
-* Send Tara Hoey (tara.hoey@nyu.edu ), the Program Operations Administrator for the Center for Cybersecurity, a
+* Send Emerald Knox (emerald.knox@nyu.edu ), the Program Operations Administrator for the Center for Cybersecurity, a
 photocopy of the front and back of your NYU Student I.D.
-* Tara will add you to the SSL listserv, so you will be in the loop for events and news from Justin and from other lab
+* Emerald will add you to the SSL listserv, so you will be in the loop for events and news from Justin and from other lab
  members.
-* Stop by to see Tara in 10.043 at some point to  pick up your official NYU Center for Cybersecurity (CCS) hoodie.
+* Stop by to see Emerald in 10.043 at some point to  pick up your official NYU Center for Cybersecurity (CCS) hoodie.
 
 **If you are not an NYU Student,**
-* Send Tara (see e-mail above) the dates of your internship/appointment  (i.e. March 15 to August 15, 2017), as
+* Send Emerald (see e-mail above) the dates of your internship/appointment  (i.e. March 15 to August 15, 2017), as
 well as a copy of a picture ID (passport or license).
-* Complete an  "Access Request form" (which Tara will provide).  With this information, Tara will be able to request
+* Complete an  "Access Request form" (which Emerald will provide).  With this information, Emerald will be able to request
  an NYU net ID for you, allowing you to obtain an ID card that will give you access to the building.
-* Pick up your CCS hoodie from Tara’s office.
+* Pick up your CCS hoodie from Emerald’s office.
 
 **For all new lab personnel,**
 So we can officially recognize you as part of the lab’s personnel, we want to include you on our Web site (https://ssl.engineering.nyu.edu/people). To do so, please provide a few short biographical details:
