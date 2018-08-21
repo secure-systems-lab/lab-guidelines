@@ -6,7 +6,7 @@ well-organized. This attention to detail begins with creating a
 writing/editing structure for the paper that facilitates successful
 collaboration with other authors in and out of the lab.
 
-Note, there is a [useful collection](paper_template/) of files available 
+Note, there is a [useful collection of files available](paper_template/) 
 for students to start with.
 
 Here are a few guidelines for preparing an SSL document:
