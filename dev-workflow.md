@@ -52,6 +52,7 @@ for further instructions. And beware of the following pitfalls:
     sure your PR title is concise and the description tells the reader enough
     to really understand what the PR is about. This is really important for
     reviewers!
+    - Read our [git history guidelines](git-history.md) for more details.
 
 1. **Request a review**. You can request reviews directly in *GitHub*. Also,
 don't be afraid to re-ask if no one has been on it after a couple of days.
