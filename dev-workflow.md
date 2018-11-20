@@ -59,6 +59,8 @@ Travis-CI and AppVeyor) and report the results in the pull request page itself.
 This helps identify possible problems in pull requests, or point to indicate
 where test code needs to be modified due to the changes.  If builds fail for
 your pull request, look through the output and see if you can fix the problems.
+You can also run tests locally!  Check the `.travis.yml` or `appveyor.yml` files
+to see what commands the build systems run.
 
 1. **Request a review**. You can request reviews directly in *GitHub*. Also,
 don't be afraid to re-ask if no one has been on it after a couple of days.
