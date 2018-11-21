@@ -21,10 +21,10 @@ well as a copy of a picture ID (passport or license).
 So we can officially recognize you as part of the lab’s personnel, we want to include you on our Web site (https://ssl.engineering.nyu.edu/people). To do so, please provide a few short biographical details:
 * Your name as you would like people in the lab to call you (i.e. if you prefer to be known by a shortened version of
 your name or a nickname, please let us know)
-* item 2 Your position in the lab (Phd. student, Undergraduate, High School, etc.)
-* item 3 Your research interests, briefly stated (i.e. Cybersecurity, Code flaws, Network security, Privacy, etc.)
-* item 4 The lab projects on which you’ll be working
-* item 5 Any publications or software developments/deployments you may have to your credit (if applicable).
+* Your position in the lab (Phd. student, Undergraduate, High School, etc.)
+* Your research interests, briefly stated (i.e. Cybersecurity, Code flaws, Network security, Privacy, etc.)
+* The lab projects on which you’ll be working
+* Any publications or software developments/deployments you may have to your credit (if applicable).
 
 We also need a head and shoulders photo of yourself. The picture does not need to be high resolution. We can crop and
 re-size photos if necessary, but try to avoid full body images that might be tricky to reduce to our standard size of
