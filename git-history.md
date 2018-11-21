@@ -34,7 +34,10 @@ While you are working on your *feature* branch the *main* branch might move
 forward, because some other work was merged into the *main* branch. Check
 regularily, especially before you submit a *pull request*, if the
 base of your *feature* branch has moved forward. If it has, use `git rebase`
-to update the base and fix conflicts as they occur.
+to update the base and fix conflicts as they occur.  (`git fetch --all` and
+`git rebase <upstream>/<main branch>` instead of `git pull`).
+[Here's](https://github.com/theupdateframework/tuf/pull/804#issuecomment-440017361)
+an example in practice.
 
 __Tricks to keep the history of your *feature* branch clean (bonus task)__
 A clean history also means that you split your work into sensible chunks, i.e.
