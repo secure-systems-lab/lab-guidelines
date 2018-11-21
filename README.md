@@ -6,7 +6,7 @@ for working and collaborating in the lab.
 
 * On-boarding -- You are new to SSL and its operations?
   The [on-boarding guide](on-boarding.md) helps you get up to speed.
-* Starting new projects -- Follow our [new projects guide](newproject.md)
+* Starting a new project -- Follow our [new projects guide](newproject.md)
   to start your project on the right foot.
 * Reporting progress -- Document your achievements and share your insights
   by following the [progress report guide](progressreport.md).
