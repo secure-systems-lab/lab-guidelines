@@ -32,7 +32,7 @@ unless you have commited directly to your *main* branch, which you shouldn't!
 __Keep the base of your *feature* branch in sync with *upstream*__
 While you are working on your *feature* branch the *main* branch might move
 forward, because some other work was merged into the *main* branch. Check
-regularily, especially before you submit a *pull request*, if the
+regularly, especially before you submit a *pull request*, if the
 base of your *feature* branch has moved forward. If it has, use `git rebase`
 to update the base and fix conflicts as they occur.  (`git fetch --all` and
 `git rebase <upstream>/<main branch>` instead of `git pull`).
