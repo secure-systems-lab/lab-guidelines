@@ -47,11 +47,12 @@ even need to worry about this while coding. You can use `git add` in
 commits from a huge diff. Or use `git rebase` in `interactive` mode to rewrite
 the history of your *feature* branch to your hearts content.
 
-__Resolve conflicts in an open *pull request*__ Once you have submitted a *pull
-request* and you are receiving reviews and comments, you should avoid rebasing,
-as it makes it harder to follow your changes on GitHub. However, if GitHub
-notifies you about conflicts, you should rebase and fix the conflicts. Ideally,
-you would do that after you addressed all review comments.
+__Rebasing in an open *pull request*__ Once you have submitted a *pull request*
+and you are receiving review comments, please avoid rebasing, as it makes it
+harder for reviewers to follow any changes that they requested. However, if
+GitHub notifies you about conflicts, you should rebase as described above,
+while fixing those conflicts. Ideally, you do that after addressing all review
+comments and having received another round of review.
 
 #### Further reading
 Consider reading the resources listed below, especially if some of above
