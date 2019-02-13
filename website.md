@@ -40,5 +40,5 @@ details about this workflow. Instructions on how to build the website locally ca
     ```shell
     git push deploy master
     ```
-    **Important Note:** You need to request the required push permissions
-    from NYU's IT support in order to deploy the website.
+    **Important Note:** Your ssh public key will need to be added to the .ssh/authorized_keys file on 
+    deployer@telestro.poly.edu for you to have permission to push directly.
