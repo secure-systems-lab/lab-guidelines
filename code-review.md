@@ -1,7 +1,7 @@
 # Code Review Guidelines
 
-Code reviews are important, both to ensure code quality, and to learn from each
-other. To get the most out of it, code authors should voice their expectations
+Code reviews are important, not only to ensure code quality, but also so project team members can learn from each
+other. To get the most out of the process, code authors should voice their expectations
 of a review, and reviewers should state the performed actions and areas of
 focus.
 
@@ -19,7 +19,7 @@ __As code author (pre-review):__
    pass, etc. *Do not waste the reviewer's time with things you can easily get
    right in the first place!*
 
-1. Send a PR, that follows our [PR
+1. Send a PR that follows our [PR
    guideline](commits.md#pull-request-guidelines-wip), and describe what you
    think are the aspects that require the largest share of a reviewer's
    attention:
@@ -30,8 +30,8 @@ __As code author (pre-review):__
    feature, or by leaving a comment on the *pull request* page, mentioning the
    desired
    [`@<reviewer>`](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#mentioning-people-and-teams).
-   Don't be afraid to remind them, if no one has been on it after a couple of
-   days.
+   Don't be afraid to send a reminder after a couple of
+   days if no one has addressed your request.
 
 
 __As code reviewer:__
@@ -46,7 +46,7 @@ __As code reviewer:__
    e.g. if a docs PR adds URLs, check if they actually resolve, etc.
    Be diligent, but also remember that the goal is not to demonstrate your
    review skills but to integrate the proposed bug fix or feature. And be
-   respectful.
+   respectful in word choice and tone.
 
 1. Mention the areas (topical, regional) you focused on. Feel free to mention
    areas you cannot review as well:
@@ -56,9 +56,9 @@ __As code reviewer:__
 __As code author (post-review):__
 
 1. Address **all (!)** review comments. *Do not waste the reviewer's time by
-   having them leave the same comment twice!*
+   forcing them to leave the same comment twice!*
 
-    - Reply to the comment, if it is unclear, or you think the reviewer got
+    - Reply to the comment if it is unclear or you think the reviewer got
       something wrong.
 
     - Otherwise, push new commits that address the comment. These commits
